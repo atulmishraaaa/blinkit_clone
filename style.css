@@ -1,0 +1,260 @@
+nav{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 9999;
+}
+#vertical-line{
+    border-left: 1px solid #FCFCFC;
+    height: 60px;
+}
+.nav-delivery>h5{
+    margin-top: 10px;
+    font-weight: 700;
+}
+.nav-delivery>p{
+    font-size: 13px;
+}
+.nav-search{
+    background-color: #F8F8F8;
+    border-radius: 10px;
+    border: 2px;
+    padding-inline: 10px;
+    width: 40vw;
+}
+.nav-search>input{
+    border: none;
+    height: 45px;
+    background-color: transparent;
+}
+.cart-btn{
+    border-radius: 10px !important;
+    font-weight: 700 !important;
+}
+#catagories-1{
+    display: flex;
+    flex-wrap: wrap;
+    padding-inline:6.5vw;
+    justify-content:space-around;
+}
+.scroll-container{
+    width:85vw;
+    margin:auto
+}
+.list{
+    white-space: nowrap;
+    overflow-x:scroll;
+
+}
+.list::-webkit-scrollbar{
+    display: none;
+}
+
+.list>img{
+    display: inline-block;
+    margin: 10px;
+}
+.category{
+    width: 85vw;
+    margin: auto;
+
+
+}
+.dairy{
+    font-weight: 700;
+}
+.my-card{
+    display: inline-block !important;
+    width: 220px;
+    box-sizing: border-box;
+    border-radius: 15px !important;
+    white-space: wrap;
+    margin-inline: 10px;
+
+}
+.my-card>img{
+    display: inline-block;
+    margin: auto;
+  
+}
+
+   
+.time{
+    background-color: #F8F8F8;
+    transform: uppercase;
+    font-size: 9px;
+    font-weight: 700;
+    color: rgb(54, 54, 54);
+    width: fit-content;
+    padding: 3px;
+    border-radius: 5px;
+}
+.card-text{
+    font-size:14px;
+    margin-top: 10px;
+}
+.product-weight{
+    font-size: 13px;
+    color: #7474A1;
+
+}
+.for-h6>h6{
+    margin: 0px;
+}
+.row1{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 100px;
+   
+}
+.h_5{
+    margin-bottom: 25px;
+}
+.row1_col1{
+    flex: 2;
+    
+}
+.t1{
+    width: 100%;
+   color: #7474A1;
+
+
+}
+.row1_col2{
+    flex: 3;
+}
+.t2{
+    width: 100%;
+   color: #7474A1;
+
+}
+td:hover{
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.row2{
+    display: flex;
+    width: 85vw;
+    margin: auto;
+    justify-content: space-around;
+}
+.row2_col_1{
+    flex: 1;
+    font-size: 13px;
+    color: #7474A1;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.row2_col_2{
+    flex: 1;
+    display:flex;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    margin-top: 50px;
+    margin-bottom: 30px;
+    /* margin-right:120px ;
+    margin-left:80px; */
+    
+  
+}
+.row2_col_3{
+    flex: 1;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 85vw;
+   
+
+}
+.social_icons{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+   
+
+}
+.social_icons:hover{
+    background-color: #F8CB46;
+    color: black;
+    box-shadow: 5px 5px 10px black;
+}
+.Do{
+    font-size: 14px;
+    font-weight: 700;
+    color: #7474A1;
+
+}
+.app{
+    background-color: #213B50;
+    color: white;
+    font-size: 14px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 92px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+   margin-inline: 10px;
+}
+.app:hover{
+    background-color: #F8CB46;
+    color: black;
+    box-shadow: 3px 3px 8px black;
+}
+.row3{
+    color: #7474A1;
+    width: 85vw;
+    margin: auto;
+}
+
+@media screen and (max-width:480px) {
+    #hero-section,#vertical-line{
+       display:none !important;
+    }
+    .row1{
+        flex-direction: column;
+        text-align: center;
+    }
+    .row2,.row3{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+    
+    .row1_col1 {
+        margin-bottom: 10px;
+        margin-top: -20px;
+    }
+    .row2_col_1,.row2_col_2,.row2_col_3,.row3{
+        margin-left: 80px;
+    }
+    .row2_col_2,.row2_col_3{
+        margin-top: -20px;
+    }
+    #nav_bar{
+        flex-direction: column;
+        text-align: center;
+        position: static;
+
+    }
+    #logo{
+        margin-top: 20px;
+    }
+    .nav-search{
+        width: 90vw;
+    }
+    
+}
